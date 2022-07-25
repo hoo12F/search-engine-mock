@@ -5,3 +5,6 @@ non functional search engine
 MIT License
 <br>
 Copyright (c) Omnix
+
+## Coming soon:
+Home
