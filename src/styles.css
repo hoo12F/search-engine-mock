@@ -7,14 +7,14 @@ textarea {
   border: transparent;
   margin-top: 20px;
   text-indent: 12px;
-  display: inline-block;  
   padding-top:12px;
   transition-duration: 0.4s;
   font-family: 'Inter', sans-serif;
+  resize: none;
 }
 
 textarea:hover {
-  background: #c4c4c4;
+  background: #e1e1e1;
 }
 
 body {
@@ -31,7 +31,7 @@ strong {
 
 strong:hover {
   color: #005fcc;
-  text-deocration: underline;
+  text-decoration: underline;
 }
 
 p {
@@ -41,11 +41,18 @@ p {
 small {
   color: #7f8994;
 }
-div {
-  outline: 2px black;
+.container {
+  width: 400px;
+  height: 100px;
+  margin-left: 12px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -395px;
 }
 
-.search {
+button {
   display: inline-block;
   height: 45px;
   width: 120px;
@@ -60,11 +67,58 @@ div {
   cursor: pointer;
 }
 
-.search:hover {
+button:hover {
   background: #005ac2;
 }
 
 .buttontxt {
   position: relative;
-  bottom: 16px;
+  bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 230px;
+  color: #0077ff;
+  margin: 15px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.maintxtarea {
+  height:50px;
+}
+
+.search {
+  width: 50px;
+}
+
+.long {
+  width: 160px;
+}
+.liltxt {
+  color: slategray;
+}
+
+.infoheader {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.border {
+  width: 400px;
+  border: 2px solid gray;
+  margin: 60px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 300px;
+}
+
+
+img {
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
 }
