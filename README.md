@@ -7,4 +7,4 @@ MIT License
 Copyright (c) Omnix
 
 ## Coming soon:
-Home
+functionality to shortcuts
